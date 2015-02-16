@@ -7,7 +7,6 @@
 ## 2. "get" to get the value of the matrix
 ## 3. "setinverse" to set the value of the inverse matrix
 ## 4. "getinverse" to get the value of the inverse matrix
-
 ## The assumption is that the x matrix is inversible. The function will test
 ## if it's a square matrix and give an error if not.
 
