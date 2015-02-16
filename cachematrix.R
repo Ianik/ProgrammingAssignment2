@@ -11,6 +11,7 @@
 ## The assumption is that the x matrix is inversible. The function will test
 ## if it's a square matrix and give an error if not.
 
+makeCacheMatrix <- function(x = matrix()) {
       ## Test is the matrix is a square Matrix
       if(!ncol(x)==nrow(x)){
             stop("The matrix is not a square matrix.")
